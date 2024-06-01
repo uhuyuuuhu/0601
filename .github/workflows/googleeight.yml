@@ -1,7 +1,5 @@
 name: googkesix-sch
-on:
-  schedule:
-    - cron: '22 */8 * * *' # Run every day at midnight
+on: [push, workflow_dispatch]
 jobs:
   build:
 
