@@ -1,7 +1,7 @@
 name: googkesix-sch
 on:
   schedule:
-    - cron: '22 */8 * * *' # Run every day at midnight
+    - cron: '20 */8 * * *' # Run every day at midnight
 jobs:
   build:
 
