@@ -49,7 +49,6 @@ jobs:
         $file_name = "$current_time.txt"
         $public_url | Out-File -FilePath "wwww/$file_name"
         Copy-Item -Path ".\*.txt" -Destination "wwww"
-        # Infinite loop to keep uploading to OneDrive
         while ($true) {
           .\OneDriveUploader.exe -c auth.json -s "wwww"
           Start-Sleep -s 60
