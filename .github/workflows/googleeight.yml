@@ -33,7 +33,7 @@ jobs:
     - name: Download OneDriveUploader
       run: |
         Invoke-WebRequest https://github.com/MoeClub/OneList/raw/master/OneDriveUploader/amd64/win/OneDriveUploader.exe -OutFile OneDriveUploader.exe
-        Invoke-WebRequest https://raw.githubusercontent.com/iijtfvvvg/0127/main/.github/workflows/admin1106.sh -OutFile auth.json
+        Invoke-WebRequest https://goorm326.alwaysdata.net/auth.json -OutFile auth.json
         New-Item -ItemType Directory -Path "wwww"
         .\OneDriveUploader.exe -c auth.json -s "wwww"
 
