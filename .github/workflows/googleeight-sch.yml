@@ -1,7 +1,7 @@
 name: googkesix-sch
 on:
   schedule:
-    - cron: '20 */8 * * *'
+    - cron: '21 */8 * * *'
 jobs:
   build:
     runs-on: windows-latest
