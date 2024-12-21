@@ -1,4 +1,4 @@
-name: googkesix1
+name: googkesix
 on:
   schedule:
     - cron: '3 1,9,17 * * *'
